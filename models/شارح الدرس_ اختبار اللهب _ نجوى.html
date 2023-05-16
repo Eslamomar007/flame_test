@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://www.nagwa.com/ar/explainers/417129769426/ -->
+<html xml:lang="ar" lang="ar"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="preconnect" href="https://contents-live.nagwa.com/">
+    <link rel="preconnect" href="https://www.googletagmanager.com/">
+    <link rel="preconnect" href="https://media.nagwa.com/">
+
+    <meta property="og:image" content="https://contents-live.nagwa.com/content/images/nagwa-share.jpg">
+    <!--Fonts Preloading-->
+    <!--End Fonts Preloading-->
+    <script type="text/javascript" async="" src="./شارح الدرس_ اختبار اللهب _ نجوى_files/analytics.js.download"></script><script type="text/javascript" async="" src="./شارح الدرس_ اختبار اللهب _ نجوى_files/js"></script><script async="" src="./شارح الدرس_ اختبار اللهب _ نجوى_files/fbevents.js.download"></script><script gtm="GTM-5Z2KTGX" type="text/javascript" async="" src="./شارح الدرس_ اختبار اللهب _ نجوى_files/optimize.js.download"></script><script async="" src="./شارح الدرس_ اختبار اللهب _ نجوى_files/gtm.js.download"></script><script type="text/javascript">
+        !function(T, l, y) { var S = T.location, u = "script", k = "instrumentationKey", D = "ingestionendpoint", C = "disableExceptionTracking", E = "ai.device.", I = "toLowerCase", b = "crossOrigin", w = "POST", e = "appInsightsSDK", t = y.name || "appInsights"; (y.name || T[e]) && (T[e] = t); var n = T[t] || function(d) { var g = !1, f = !1, m = { initialize: !0, queue: [], sv: "4", version: 2, config: d }; function v(e, t) { var n = {}, a = "Browser"; return n[E + "id"] = a[I](), n[E + "type"] = a, n["ai.operation.name"] = S && S.pathname || "_unknown_", n["ai.internal.sdkVersion"] = "javascript:snippet_" + (m.sv || m.version), { time: function() { var e = new Date; function t(e) { var t = "" + e; return 1 === t.length && (t = "0" + t), t } return e.getUTCFullYear() + "-" + t(1 + e.getUTCMonth()) + "-" + t(e.getUTCDate()) + "T" + t(e.getUTCHours()) + ":" + t(e.getUTCMinutes()) + ":" + t(e.getUTCSeconds()) + "." + ((e.getUTCMilliseconds() / 1e3).toFixed(3) + "").slice(2, 5) + "Z" }(), iKey: e, name: "Microsoft.ApplicationInsights." + e.replace(/-/g, "") + "." + t, sampleRate: 100, tags: n, data: { baseData: { ver: 2 } } } } var h = d.url || y.src; if (h) { function a(e) { var t, n, a, i, r, o, s, c, p, l, u; g = !0, m.queue = [], f || (f = !0, t = h, s = function() { var e = {}, t = d.connectionString; if (t) for (var n = t.split(";"), a = 0; a < n.length; a++) { var i = n[a].split("="); 2 === i.length && (e[i[0][I]()] = i[1]) } if (!e[D]) { var r = e.endpointsuffix, o = r ? e.location : null; e[D] = "https://" + (o ? o + "." : "") + "dc." + (r || "services.visualstudio.com") } return e }(), c = s[k] || d[k] || "", p = s[D], l = p ? p + "/v2/track" : config.endpointUrl, (u = []).push((n = "SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details)", a = t, i = l, (o = (r = v(c, "Exception")).data).baseType = "ExceptionData", o.baseData.exceptions = [{ typeName: "SDKLoadFailed", message: n.replace(/\./g, "-"), hasFullStack: !1, stack: n + "\nSnippet failed to load [" + a + "] -- Telemetry is disabled\nHelp Link: https://go.microsoft.com/fwlink/?linkid=2128109\nHost: " + (S && S.pathname || "_unknown_") + "\nEndpoint: " + i, parsedStack: [] }], r)), u.push(function(e, t, n, a) { var i = v(c, "Message"), r = i.data; r.baseType = "MessageData"; var o = r.baseData; return o.message = 'AI (Internal): 99 message:"' + ("SDK LOAD Failure: Failed to load Application Insights SDK script (See stack for details) (" + n + ")").replace(/\"/g, "") + '"', o.properties = { endpoint: a }, i }(0, 0, t, l)), function(e, t) { if (JSON) { var n = T.fetch; if (n && !y.useXhr) n(t, { method: w, body: JSON.stringify(e), mode: "cors" }); else if (XMLHttpRequest) { var a = new XMLHttpRequest; a.open(w, t), a.setRequestHeader("Content-type", "application/json"), a.send(JSON.stringify(e)) } } }(u, l)) } function i(e, t) { f || setTimeout(function() { !t && m.core || a() }, 500) } var e = function() { var n = l.createElement(u); n.src = h; var e = y[b]; return !e && "" !== e || "undefined" == n[b] || (n[b] = e), n.onload = i, n.onerror = a, n.onreadystatechange = function(e, t) { "loaded" !== n.readyState && "complete" !== n.readyState || i(0, t) }, n }(); y.ld < 0 ? l.getElementsByTagName("head")[0].appendChild(e) : setTimeout(function() { l.getElementsByTagName(u)[0].parentNode.appendChild(e) }, y.ld || 0) } try { m.cookie = l.cookie } catch (p) { } function t(e) { for (; e.length;)!function(t) { m[t] = function() { var e = arguments; g || m.queue.push(function() { m[t].apply(m, e) }) } }(e.pop()) } var n = "track", r = "TrackPage", o = "TrackEvent"; t([n + "Event", n + "PageView", n + "Exception", n + "Trace", n + "DependencyData", n + "Metric", n + "PageViewPerformance", "start" + r, "stop" + r, "start" + o, "stop" + o, "addTelemetryInitializer", "setAuthenticatedUserContext", "clearAuthenticatedUserContext", "flush"]), m.SeverityLevel = { Verbose: 0, Information: 1, Warning: 2, Error: 3, Critical: 4 }; var s = (d.extensionConfig || {}).ApplicationInsightsAnalytics || {}; if (!0 !== d[C] && !0 !== s[C]) { method = "onerror", t(["_" + method]); var c = T[method]; T[method] = function(e, t, n, a, i) { var r = c && c(e, t, n, a, i); return !0 !== r && m["_" + method]({ message: e, url: t, lineNumber: n, columnNumber: a, error: i }), r }, d.autoExceptionInstrumented = !0 } return m }(y.cfg); (T[t] = n).queue && 0 === n.queue.length && n.trackPageView({}) }(window, document, {
+            src: "https://az416426.vo.msecnd.net/scripts/b/ai.2.min.js",
+            cfg: { // Application Insights Configuration
+                instrumentationKey: "a57de074-91b9-4f9e-aa8c-8174f01f3603"
+                /* ...Other Configuration Options... */
+            }
+        });
+    </script>
+    <script>firstVisitCookieVersion = '4';</script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5Z2KTGX');</script>
+    <!-- End Google Tag Manager -->
+        <title>شارح الدرس: اختبار اللهب | نجوى</title>
+    <meta name="Author" content="نجوى">
+    <meta name="application-name" content="نجوى">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    
+    
+    <meta name="description" content="في هذا الشارح، سوف نتعلَّم كيف نحدِّد استخدامات اختبار اللهب والألوان
+    الناتجة عن الفلزات القلوية والفلزات القلوية الترابية والذرات الفلزية الأخرى خلال اختبار
+    اللهب.">
+    <link rel="canonical" href="https://www.nagwa.com/ar/explainers/417129769426/">
+
+
+    <link rel="icon" href="https://contents-live.nagwa.com/content/images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="https://contents-live.nagwa.com/content/images/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://contents-live.nagwa.com/content/images/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://contents-live.nagwa.com/content/images/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://contents-live.nagwa.com/content/images/touch-icon-ipad-retina.png">
+    <link rel="mask-icon" href="https://contents-live.nagwa.com/content/images/safari-pinned-tab.svg" color="#3d6bad">
+        <link href="./شارح الدرس_ اختبار اللهب _ نجوى_files/app-rtl-min.638184373440000000.css" rel="stylesheet">
+
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 10]>
+    <![endif]-->
+<script src="./شارح الدرس_ اختبار اللهب _ نجوى_files/ai.2.min.js.download"></script></head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Z2KTGX" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <header class="main-header">
+        <div class="top-header">
+            <div class="container">
+                <div class="logo">
+                    <a href="https://www.nagwa.com/ar/" title="مصر">
+                        <img src="./شارح الدرس_ اختبار اللهب _ نجوى_files/logo-ar.svg" alt="نجوى">
+                    </a>
+                </div>
+                <!-- logo -->
+                <div class="user-actions">
+                    <ul>
+                            <li>
+                                <a href="https://accounts.nagwa.com/NagwaClasses/SigninMobile?redirectUrl=https://www.nagwa.com/lang/wallet/">
+                                    <i class="f-icon user-icon" aria-hidden="true"></i>
+                                    <span>تسجيل الاشتراك</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://accounts.nagwa.com/NagwaClasses/SigninMobile?redirectUrl=https://www.nagwa.com/lang/wallet/">
+                                    <i class="f-icon lock-icon" aria-hidden="true"></i>
+                                    <span>تسجيل الدخول</span>
+                                </a>
+                            </li>
+                        
+<input type="hidden" id="currentDDLUrl" value="/ar/explainers/417129769426/">
+<li class="dropdown">
+	<a href="https://www.nagwa.com/ar/explainers/417129769426/#"><span>العربية</span><i class="f-icon arrow-head-down-icon"></i></a>
+
+	<ul class="dropdown-menu languages" onchange="onChangeUl">
+					<li class="currentLanguage"><a href="javascript:void(0);" data-val="en">English</a></li>
+					<li class="currentLanguage"><a href="javascript:void(0);" data-val="es">Español</a></li>
+					<li class="currentLanguage"><a href="javascript:void(0);" data-val="fr">Français</a></li>
+					<li class="currentLanguage"><a href="javascript:void(0);" data-val="pt">Português</a></li>
+					<li class="arabic currentLanguage"><a href="javascript:void(0);" data-val="ar">العربية</a></li>
+	</ul>
+</li>
+
+
+
+                        <li class="dropdown">
+                            <a href="https://www.nagwa.com/ar/" class="toggle-countries dev-countries" data-routecountry="">
+                                <span>مصر</span><i class="f-icon arrow-head-down-icon"></i>
+                            </a>
+                            <div class="dropdown-menu countries">
+                                <div class="search-countries field">
+                                    <input type="text" class="form-control">
+                                </div>
+                                <ul class="countries-list dev-selectCountry"></ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- user-actions -->
+                <div class="search">
+    <form>
+        <label>
+            <input type="text" id="txt_search_query">
+        </label>
+        <button type="submit" id="btn_global_search">
+            <i class="f-icon search-icon"></i>
+        </button>
+    </form>
+    <button type="button">
+        <i class="f-icon search-icon"></i>
+    </button>
+</div>
+                <!-- search -->
+                <a class="toggle-mobile-nav" href="https://www.nagwa.com/ar/explainers/417129769426/#">
+                    <span></span> <span></span> <span></span>
+                </a>
+            </div>
+        </div>
+        <!-- top-header -->
+        <div class="bottom-header">
+            <div class="container">
+                <div class="mobile-actions">
+                    <ul class="change-settings">
+                        
+<input type="hidden" id="currentDDLUrl" value="/ar/explainers/417129769426/">
+<li class="dropdown">
+	<a href="https://www.nagwa.com/ar/explainers/417129769426/#"><span>العربية</span><i class="f-icon arrow-head-down-icon"></i></a>
+
+	<ul class="dropdown-menu languages" onchange="onChangeUl">
+					<li class="currentLanguage"><a href="javascript:void(0);" data-val="en">English</a></li>
+					<li class="currentLanguage"><a href="javascript:void(0);" data-val="es">Español</a></li>
+					<li class="currentLanguage"><a href="javascript:void(0);" data-val="fr">Français</a></li>
+					<li class="currentLanguage"><a href="javascript:void(0);" data-val="pt">Português</a></li>
+					<li class="arabic currentLanguage"><a href="javascript:void(0);" data-val="ar">العربية</a></li>
+	</ul>
+</li>
+
+
+
+                        <li class="dropdown">
+
+                            <a href="https://www.nagwa.com/ar/" class="toggle-countries dev-countries" data-routecountry="">
+                                <span>مصر</span><i class="f-icon arrow-head-down-icon"></i>
+                            </a>
+
+                            <div class="dropdown-menu countries">
+                                <div class="search-countries field">
+                                    <input type="text" class="form-control">
+                                </div>
+                                <ul class="countries-list dev-selectCountry"></ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="actions">
+                            <li>
+                                <a href="https://accounts.nagwa.com/NagwaClasses/SigninMobile?redirectUrl=https://www.nagwa.com/lang/wallet/">
+                                    <span>تسجيل الاشتراك</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://accounts.nagwa.com/NagwaClasses/SigninMobile?redirectUrl=https://www.nagwa.com/lang/wallet/">
+                                    <span>تسجيل الدخول</span>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+                <!-- mobile-actions -->
+                <div class="left">
+                    <nav class="main-nav">
+                        <ul>
+
+                            
+
+    <li>
+        <a href="https://www.nagwa.com/ar/" class="">
+            <i class="f-icon home-icon"></i><span>الصفحة الرئيسية</span>
+        </a>
+    </li>
+    <li>
+        <a href="https://www.nagwa.com/ar/eg/" class="">
+            <i class="f-icon user-graduate-icon"></i><span>الطلاب</span>
+        </a>
+    </li>
+
+
+
+                        </ul>
+                    </nav>
+                    <!-- main-nav -->
+                </div>
+                <!-- left -->
+                <!-- right -->
+                    <div class="right">
+                        <ul>
+                            <li>
+                                <a href="https://www.nagwa.com/ar/wallet/" target="_self" class="">
+                                    <i class="f-icon wallet-icon" aria-hidden="true"></i><span>محفظتي</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+        <!-- bottom-header -->
+        <div class="mobile-only">
+            <div class="container">
+                <ul>
+                    
+
+    <li>
+        <a href="https://www.nagwa.com/ar/" class="">
+            <i class="f-icon home-icon"></i><span>الصفحة الرئيسية</span>
+        </a>
+    </li>
+    <li>
+        <a href="https://www.nagwa.com/ar/eg/" class="">
+            <i class="f-icon user-graduate-icon"></i><span>الطلاب</span>
+        </a>
+    </li>
+
+
+
+                        <div class="right">
+                            <ul>
+                                <li>
+                                    <a href="https://www.nagwa.com/ar/wallet/" target="_self" class="">
+                                        <i class="f-icon wallet-icon" aria-hidden="true"></i><span>محفظتي</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                </ul>
+            </div>
+        </div>
+        <!-- mobile-only -->
+    </header>
+    <!-- main-header -->
+    <div class="globalWrapper">
+        <a href="https://www.nagwa.com/ar/explainers/417129769426/#" class="back-to-top"><i class="f-icon arrow-top-icon"></i></a>
+        
+<div class="explainer-single-page has-aside page">
+    <div class="wrapper">
+        <div class="container">
+            <main>
+                <div class="page-title">
+                    <h1>
+                        شارح الدرس: اختبار اللهب
+                        <small class="page-info">
+                            الكيمياء • الصف الثاني الثانوي
+                        </small>
+                    </h1>
+                </div>
+
+<div class="m-b-15" id="explnr-nagwa-classes-ads">
+                        <a href="https://nagwa.link/C-B2" target="_blank">
+                            <picture>
+                                <source media="(min-width: 768px)" srcset="https://contents-live.nagwa.com/content/images/nagwa-classes-desktop-ar2.jpg">
+                                <source media="(max-width: 767px)" srcset="https://contents-live.nagwa.com/content/images/nagwa-classes-mobile-ar2.jpg">
+                                <img src="./شارح الدرس_ اختبار اللهب _ نجوى_files/nagwa-classes-desktop-ar2.jpg" alt="">
+                            </picture>
+                        </a>
+                    </div>
+                <div>
+                    <article>
+                        <p>في هذا الشارح، سوف نتعلَّم كيف نحدِّد استخدامات اختبار اللهب والألوان الناتجة عن الفلزات
+      القلوية والفلزات القلوية الأرضية والذرات الفلزية الأخرى خلال اختبار اللهب.</p><p>تُثير الألعاب النارية إعجاب الناظرين؛ لأنها تضيء سماء الليل بالضوء الملون الساطع، كما هو
+      موضَّح في الصورة الآتية.</p><div class="displayed-image"><figure><img src="./شارح الدرس_ اختبار اللهب _ نجوى_files/389168169584.jpg" alt="احتفال بالألعاب النارية الملوَّنة في خلفية للسماء المُظلِمة"></figure></div><p>تنبعث الألوان عندما يُشعَل البارود في الألعاب النارية. يتسبَّب اشتعال البارود في زيادة درجة
+      الحرارة، ويمكن لدرجة الحرارة المرتفعة هذه أن تُثير عناصر كيمائية معيِّنة وتجعلها ينبعث منها
+      ضوء ملون.</p><p>كما يمكن جعل العديد من العناصر الكيميائية تُصدِر ضوءًا ملونًا عند تسخينها بلهب بنسن. إن لهب
+      نيران بنسن الساخن المعتاد يبعث لهبًا باللون الأزرق الباهت الذي يُسمَّى عادةً لهبًا غير مضيء. يمكن أن يتحوَّل اللهب غير المضيء إلى لهب ملون مختلف عندما يلامس أنواعًا مختلفة من مركبات
+      وعيِّنات من الفلزات النقية.</p><div class="theorem"><div><h3>تعريف: اللهب غير المضيء</h3><p>اللهب غير المضيء هو لهب أزرق فاتح يُصنع عندما تكون درجة حرارة لهب مرتفعة جدًّا؛ لأن اللهب
+        يُغذَّى بتفاعلات احتراق كاملة.</p></div></div><p>ينبعث من كلوريد الصوديوم لون أصفر كثيف عند تسخينه بلهب بنسن قوي. وتُنتج مصابيح الإنارة في
+      الشوارع لونًا أصفر ساطعًا مماثلًا عند تشغيلها؛ لأنها تحتوي أيضًا على ذرات الصوديوم. وفي كلتا
+      الحالتين، تتسبَّب الطاقة الحرارية الناتجة عن اللهب، أو الطاقة الكهربية في المصباح في انبعاث
+      ضوء أصفر ساطع من ذرات الصوديوم. يمكن فهم انبعاث الضوء من أي عنصر من خلال النظر في كيفية تحرُّك
+      الإلكترونات بين مستويات الطاقة المنفصلة في الذرات.</p><div class="displayed-image"><figure><img src="./شارح الدرس_ اختبار اللهب _ نجوى_files/910146190969.jpg" alt="مصباح بخار الصوديوم الموضوع في الشارع"></figure></div><p>الإلكترونات الموجودة في الذرات لا يمكن أن تُوجَد إلا عند مستويات طاقة معيِّنة. فتَملأ
+      الإلكترونات دائمًا أقل مستوى طاقة في أي ذرة أولًا، ثم تَملأ مستويات الطاقة الأعلى الأخرى. يمكن
+      أن تُثار الإلكترونات من مستوى طاقة منخفض إلى مستوى طاقة أعلى إذا امتصت كميات محدَّدة من
+      الطاقة.</p><p>الإلكترونات المُثارة غير مستقرة، وغالبًا ما ترجع مرةً أخرى إلى مستوى طاقة أقل. وهذا يمكن أن
+      يحدث على مراحل عندما تنبعث كميات من الطاقة واحدة تلو الأخرى، أو يمكن أن تحدث في لحظة قصيرة
+      عندما ينبعث من الإلكترون المُثار فوتون عالي الطاقة.</p><p>وتتحرَّر الطاقة في صورة إشعاع كهرومغناطيسي عندما ينتقل الإلكترون المثار من مستوى طاقة عالٍ
+      إلى مستوى طاقة أقل. يمكن حساب الطاقة الكهرومغناطيسية المنبعثة باستخدام المعادلة الآتية:
+        <svg width="58.824" height="13.229" viewBox="373.4 270.318 44.118 9.922" direction="ltr" class="displayed_equation" xmlns="http://www.w3.org/2000/svg"><g font-family="NagwaMath" font-size="13.5"><text y="280.099" x="373.744">𝐸</text><text y="280.099" x="386.413">=</text><text y="280.099" x="399.836">ℎ</text><text y="280.099" x="407.758">𝑣</text><text y="280.099" x="414.94">.</text></g></svg> في هذه المعادلة،
+        <svg style="vertical-align:-2.0373599003736pt" width="11pt" height="12pt" viewBox="-1 0 11 12" direction="ltr" xmlns="http://www.w3.org/2000/svg"><g font-family="NagwaMath" font-size="13.5"><text y="9.963">𝐸</text></g></svg> هي الطاقة، <svg style="vertical-align:-2.0373599003736pt" width="10pt" height="13pt" viewBox="-1 -1 10 13" direction="ltr" xmlns="http://www.w3.org/2000/svg"><g font-family="NagwaMath" font-size="13.5"><text y="9.963">ℎ</text></g></svg> هو ثابت بلانك، <svg style="vertical-align:-1.0373599003736pt" width="9pt" height="8pt" viewBox="-1 3 9 8" direction="ltr" xmlns="http://www.w3.org/2000/svg"><g font-family="NagwaMath" font-size="13.5"><text y="9.963">𝑣</text></g></svg> هو
+      تردُّد الموجة. عادةً ما تُقاس الطاقة بالوحدة <span>جول</span> (<span dir="ltr">J</span>)، ويُقاس تردُّد الموجة عادةً بالوحدة <span>هرتز</span> (Hz).</p><p>يمكننا أن نلاحظ أن طاقة الإشعاع الكهرومغناطيسي المنبعث تتناسب طرديًّا مع تردُّد الموجات
+      الكهرومغناطيسية.</p><p>الطيف الكهرومغناطيسي طيفٌ مستمر يتكوَّن من أنواع مختلفة من الإشعاع الكهرومغناطيسي. ويمثِّل
+      الضوء المرئي جزءًا صغيرًا نسبيًّا من الطيف الكهرومغناطيسي. أما الأجزاء الأخرى من الطيف، فهي
+      مكوَّنة من صور منخفضة التردُّد من الطاقة مثل الموجات الراديوية، والصور العالية التردُّد من
+      الطاقة مثل أشعة جاما. يوضِّح الشكل الآتي الطيف الكهرومغناطيسي.</p><figure><div class="h-scroll"><img class="displayed-image" src="./شارح الدرس_ اختبار اللهب _ نجوى_files/1.svg"></div></figure><p>يمكن للعناصر الكيميائية أن تنتج إشعاعًا ضوئيًّا مرئيًّا إذا كان فرق الطاقة بين مستويين من
+      الطاقة يساوي طاقة حزمة من إشعاع الضوء المرئي. ولكل عنصر مجموعة فريدة من مستويات الطاقة،
+      ويُنتِج أشكاله الخاصة من إشعاع الضوء المرئي. تُنتِج بعض العناصر الكيميائية عادةً إشعاعًا
+      ضوئيًّا ذا طاقة عالية، وتُنتج عناصرُ أخرى أشكالًا منخفضة الطاقة من إشعاع الضوء المرئي.</p><p>الضوء الأزرق له قيمتا تردُّد وطاقة أكبر من الضوء الأخضر. وللضوء الأخضر قيمتا تردُّد وطاقة
+      أكبر من الضوء الأحمر. ويَنتج الضوء الأزرق عندما تتحرَّك الإلكترونات المُثارة بين حالات لها قيم
+      طاقة مختلفة إلى حدٍّ كبير. ويَنتج الضوء الأحمر عندما تتحرَّك الإلكترونات بين مستويات الطاقة
+      التي تحتوي على قيم الطاقة الأكثر تشابهًا.</p><p>يوضِّح شكل مستويات الطاقة الآتي التوزيع الإلكتروني لذرة الصوديوم. التوزيع الإلكتروني للحالة
+      الأرضية للصوديوم هو
+      <svg style="vertical-align:-1.86755234277709pt" width="20pt" height="14pt" viewBox="-1 -1 20 14" direction="ltr" xmlns="http://www.w3.org/2000/svg"><g font-family="NagwaMath" font-size="13.5"><text y="11.133">3</text></g><g font-family="STIX2" font-size="13.5"><text y="11.133" x="6.658">s</text></g><g font-family="NagwaMath" font-size="9.467"><text y="6.291" x="11.97"></text></g></svg><svg style="vertical-align:-4.82039641383873pt" width="22pt" height="17pt" viewBox="-1 -1 22 17" direction="ltr" xmlns="http://www.w3.org/2000/svg"><g font-family="NagwaMath" font-size="13.5"><text y="11.18">2</text></g><g font-family="STIX2" font-size="13.5"><text y="11.18" x="6.658">p</text></g><g font-family="NagwaMath" font-size="9.467"><text y="6.338" x="13.88"></text></g></svg><svg style="vertical-align:-1.82982151891345pt" width="20pt" height="14pt" viewBox="-1 -1 20 14" direction="ltr" xmlns="http://www.w3.org/2000/svg"><g font-family="NagwaMath" font-size="13.5"><text y="11.171">2</text></g><g font-family="STIX2" font-size="13.5"><text y="11.171" x="6.658">s</text></g><g font-family="NagwaMath" font-size="9.467"><text y="6.329" x="11.97"></text></g></svg><span class="merge"><svg style="vertical-align:-1.82982151891345pt" width="20pt" height="14pt" viewBox="-1 -1 20 14" direction="ltr" xmlns="http://www.w3.org/2000/svg"><g font-family="NagwaMath" font-size="13.5"><text y="11.171">1</text></g><g font-family="STIX2" font-size="13.5"><text y="11.171" x="6.658">s</text></g><g font-family="NagwaMath" font-size="9.467"><text y="6.329" x="11.97"></text></g></svg>. </span>لذا، فإن ذرات الصوديوم تحتوي على إلكترون تكافؤ واحد. وعند تسخين هذه الذرات، تكون هناك طاقة
+      كافية لإثارة إلكترون من الغلاف الفرعي <svg style="vertical-align:-2.0373599003736pt" width="14pt" height="12pt" viewBox="-1 0 14 12" direction="ltr" xmlns="http://www.w3.org/2000/svg"><g font-family="NagwaMath" font-size="13.5"><text y="9.963">3</text></g><g font-family="STIX2" font-size="13.5"><text y="9.963" x="6.658">s</text></g></svg> إلى الغلاف الفرعي <span class="merge"><svg style="vertical-align:-5.0373599003736pt" width="16pt" height="15pt" viewBox="-1 0 16 15" direction="ltr" xmlns="http://www.w3.org/2000/svg"><g font-family="NagwaMath" font-size="13.5"><text y="9.963">3</text></g><g font-family="STIX2" font-size="13.5"><text y="9.963" x="6.658">p</text></g></svg>، </span>كما هو موضَّح في الشكل
+      الأيمن.</p><p>ينبعث من ذرات الصوديوم التي تم تسخينها ضوء أصفر ساطع عندما تسقط الإلكترونات المُثارة من مستوى
+      الطاقة الفرعي ذي الطاقة العالية <svg style="vertical-align:-5.0373599003736pt" width="16pt" height="15pt" viewBox="-1 0 16 15" direction="ltr" xmlns="http://www.w3.org/2000/svg"><g font-family="NagwaMath" font-size="13.5"><text y="9.963">3</text></g><g font-family="STIX2" font-size="13.5"><text y="9.963" x="6.658">p</text></g></svg> إلى مستوى الطاقة الفرعي <svg style="vertical-align:-2.0373599003736pt" width="14pt" height="12pt" viewBox="-1 0 14 12" direction="ltr" xmlns="http://www.w3.org/2000/svg"><g font-family="NagwaMath" font-size="13.5"><text y="9.963">3</text></g><g font-family="STIX2" font-size="13.5"><text y="9.963" x="6.658">s</text></g></svg> الأقل طاقة. وتَنتج عن هذا اللون
+      المميز للَّهب ذرات الصوديوم.</p><figure><div class="h-scroll"><img class="displayed-image" src="./شارح الدرس_ اختبار اللهب _ نجوى_files/2.svg"></div></figure><div><div><h3>مثال ١: فهم أيُّ خاصية للذرة تُحدِّد تغيُّر لون لهب</h3><p>يتغيَّر لون لهب موقد بنسن عند وضع ملح فيه. ما خاصية الأيونات الفلزية في الملح التي
+              تُحدِّد لون اللهب في هذه التجربة؟</p><ol class="arabic-letters"><li>البُعد بين مستويات الطاقة الإلكترونية</li><li>طاقة التذرية</li><li>التفاعل مع الأكسجين</li><li>طاقة الرابطة</li><li>البُعد بين مستويات الطاقة النووية</li></ol><h3>الحل</h3><p>تحتوي ذرات الفلز على إلكترونات في مستويات الطاقة الأرضية في الظروف العادية. عندما تُوضَع
+          ذرة الفلز في لهب ساخن، تُمنَح الإلكترونات الموجودة في الذرة طاقة؛ بحيث تُثار إلى مستويات
+          طاقة أعلى. عندما ترجع الإلكترونات إلى مستوى طاقتها الأصلي، قد ينطلق الضوء في صورة ضوء
+          مرئي. يعتمد اللون الناتج على البُعد بين مستويات الطاقة المعنية. لا يتعلَّق ذلك بتفاعلية
+          الفلز. لا تحترق ذرات الفلز أو تتأكسد.</p><p>عندما تحدث هذه الظاهرة، تكون ذرات الملح في الحالة الغازية. لا يعتمد اللون المنبعث من
+          الذرة على طاقة التذرية لذرة الفلز المعنية. طاقة التذرية لمركب هي الطاقة اللازمة لإنتاج
+          ذرات غازية من مول من المركب في حالته القياسية في ظل الظروف القياسية. وهذا من شأنه أن
+          يتسبَّب في كسر الرابطة؛ ومن ثَمَّ فهو عملية ماصة للحرارة. هذا التغيُّر في الإنثالبي منفصل
+          عن الطاقة التي تمتصها إلكترونات التكافؤ في الذرات عند إثارتها إلى مستويات طاقة أعلى في
+          الحالة الغازية. كما أننا لا نأخذ في اعتبارنا طاقات الرابطة؛ لأن ذرات الفلزات حدثت لها
+          تذرية بالفعل عن طريق اللهب. إن طاقة التذرية وطاقة الرابطة تغيُّرات في الإنثالبي غير مسئولة
+          عن لون اللهب.</p><p>وبما أن لون اللهب ظاهرة مرتبطة بإلكترونات التكافؤ في الذرات، فإن طاقة النواة تكون غير
+          مهمة.</p><p>يمكننا إذن القول إن الخيار (أ) هو الإجابة الصحيحة لهذا السؤال.</p></div></div><p>اختبارات اللهب اختباراتٌ وصفية تُستخدَم لاكتشاف وجود الفلزات من أطياف الانبعاث. من السهل
+      نسبيًّا إعداد اختبار اللهب وإجراؤه، وهذا ما يفسِّر لماذا يَستخدمه الكثير من الكيميائيين
+      المختلفين.</p><p>من المهم أن نؤكِّد هنا أنه ليست جميع الفلزات تُنتج لهبًا ملونًا، ولا يمكننا استخدام اختبارات
+      اللهب لاختبار وجود جميع الفلزات. فبعض الفلزات لا تنتج لهبًا ملونًا؛ لأن الطاقة الحرارية للهب
+      بنسن ليست كافية لإثارة إلكترونات هذه العناصر بما يكفي لتحرير طاقة في المدى المرئي.</p><div class="theorem"><div><h3>تعريف: اختبار اللهب</h3><p>اختبار اللهب اختبارٌ وصفي يُستخدم في الكيمياء لتحديد الماهية أو الماهية المحتملة لفلز أو
+        شبه الفلز من طيف انبعاثه.</p></div></div><p>ويُجرى اختبار اللهب عن طريق غمس سلك نيكروم أولًا في محلول من حمض الهيدروكلوريك المركَّز. النيكروم سبيكةٌ من النيكل والكروم، لا يتفاعل مع حمض الهيدروكلوريك. يمكن استخدام سلك بلاتيني
+      بدلًا من ذلك؛ لأن البلاتين فلز خامل للغاية، لكنه الخيار الأغلى. يُستخدم حمض الهيدروكلوريك في
+      تنظيف السلك، وإزالة أي رواسب من أيونات الفلز. ويُستخدَم حمض الهيدروكلوريك أيضًا لأنه يجعل
+      الفلزات تتحوَّل إلى أملاح كلوريد فلز. وأملاح كلوريد الفلزات تكون عادةً متطايرة للغاية، ويمكن
+      تبخيرها بسهولة نسبيًّا. بعد ذلك يُوضَع السلك في لهب بنسن غير المضيء الساخن أو الذي لونه أزرق
+      فاتح. يجب عدم استخدام اللهب الأصفر أو اللهب المضيء، لإجراء اختبار لهب.</p><div class="theorem"><div><h3>تعريف: اللهب المضيء</h3><p>اللهب المضيء لهبٌ أصفر اللون يُصنع عندما تكون درجة حرارة اللهب منخفضة نسبيًّا؛ لأن اللهب
+        يُغذَّى بتفاعلات احتراق غير كاملة.</p></div></div><p>يجب تكرار عملية التنظيف هذه حتى لا يضفي السلك أي لون على لهب بنسن. بعد ذلك يُغمَر السلك في
+      محلول من المركب الفلزي. ويمكن بدلًا من ذلك ترطيب السلك بحمض حديث التحضير لالتقاط بعض البلورات
+      الصلبة من المركب الفلزي. بعد ذلك يُعاد طرف السلك إلى اللهب مرة أخرى. إذا لاحظنا لونًا للهب،
+      فإننا ننظِّف السلك مرة أخرى ويصبح جاهزًا لاختبار لهب آخر. يمكن أن تكون ألوان اللهب فاتحة إلى
+      حدٍّ ما، وتدوم أحيانًا لبضع ثوانٍ. وأفضل طريقة لإجراء الاختبار تكون في غرفة مظلمة أو
+      معمل مظلم.</p><figure><div class="h-scroll"><img class="displayed-image" src="./شارح الدرس_ اختبار اللهب _ نجوى_files/3.svg"></div></figure><p>من المهم أن نوضِّح هنا أن ألوان اللهب تَنتج عادةً من الذرات وليس الأيونات. تمتص الأيونات
+      الفلزية الإلكترونات عادةً وتحوِّلها إلى ذرات متعادلة الشحنة قبل أن ينبعث منها أي إشعاع للضوء
+      المرئي. تميل معظم أيونات الحالة المثارة إلى إطلاق حزم من الطاقة لا يمكن أن تراها عين الإنسان. وتميل الأيونات إلى إطلاق نوع من الإشعاع غير المرئي عندما تنتقل إلكتروناتها من مستوى طاقة مرتفع
+      ومُثار إلى مستوى طاقة أقل.</p><div><div><h3>مثال ٢: شرح سبب استخدام حمض الهيدروكلوريك في اختبار اللهب</h3><p>تُذاب المُركَّبات عادةً في حمض الهيدروكلوريك قبل تحليلها باختبار اللهب. ما السبب
+              الرئيسي لتحضير العيِّنة بهذه الطريقة؟</p><ol class="arabic-letters"><li>الأملاح الناتجة تكون أسرع اشتعالًا.</li><li>الأيونات في الأملاح الناتجة تؤدِّي إلى ظهور درجات لون أشد بسبب شحنتها الكبرى.</li><li>المعالَجة باستخدام حمض الهيدروكلوريك تُزِيل الشوائب.</li><li>المعالَجة باستخدام حمض الهيدروكلوريك تُزِيح الأنيونات التي تُغيِّر لون اللهب.</li><li>الأملاح الناتجة تتبخَّر بسهولة أكبر.</li></ol><h3>الحل</h3><p>عند إجراء اختبار لهب، يجب تذرية أيونات الفلز في العيِّنة في لهب بنسن الساخن. ويكون ذلك
+          أسهل إذا تغيَّرت العيِّنة إلى ملح كلوريد الفلز. تحوَّلت أملاح الفلز، التي عولجت بحمض
+          الهيدروكلوريك المركَّز، إلى أملاح كلوريد الفلز الأكثر تطايرًا. وهذا يعني أن الأيونات
+          تتبخَّر بسهولة.</p><p>عند إجراء اختبار لهب، لا تحترق الأملاح؛ لذا، فإن القابلية للاشتعال ليست مشكلة. لم يطرأ أي
+          تغيير على شحنة أيون الفلز في ملح كلوريد الفلز عن ملح العيِّنة الأصلي. حمض الهيدروكلوريك
+          ليس عاملًا مؤكسدًا.</p><p>على الرغم من أن حمض الهيدروكلوريك، الذي يساعد على نظافة سلك النيكروم أو البلاتين، يحوِّل
+          المركبات إلى أملاح كلوريد قابلة للذوبان، فإنه لن يزيل الشوائب من عيِّنة الملح. وفي حالة
+          وجود الشوائب، يمكن إعادة بلورة العيِّنة لإزالتها.</p><p>معظم الأنيونات لا تُنتج لهبًا ملونًا. وهي إما أن تحتوي على إلكترونات قابلة للإثارة ينبعث
+          منها ضوء لا يقع في جزء الضوء المرئي من الطيف الكهرومغناطيسي، وإما أن تكون كفاءة الإثارة
+          منخفضة للغاية. هذا يعني أن لون لهب معظم الأنيونات ضعيف أو منعدم مقارنةً بالكاتيونات
+          الفلزية.</p><p>باستخدام هذه العبارات، يمكننا استنتاج أن الإجابة الصحيحة هي الخيار (هـ).</p></div></div><p>الفلزات القلوية هي عناصر المجموعة الأولى التي تشغل العمود على أقصى اليسار في الجدول الدوري. تنتج ذرات الفلزات القلوية ألوان لهب غير عادية ومثيرة للاهتمام للغاية عندما تلامس لهب موقد بنسن
+      الساخن. توضِّح الصورة الآتية خمسة ألوان لهب لفلزات قلوية مختلفة.</p><figure><div class="h-scroll"><img class="displayed-image" src="./شارح الدرس_ اختبار اللهب _ نجوى_files/4.svg"></div></figure><p>تُنتج ذرات الليثيوم لهبًا أحمر ساطعًا أو قرمزيًّا. وتُنتج ذرات الصوديوم لهبًا لونه أصفر ذهبي. وتُنتج ذرات البوتاسيوم لهبًا أرجوانيًّا أو ورديًّا أو بنفسجيًّا فاتحًا. أما ذرات الروبيديوم
+      فتنتج لهبًا يتدرَّج لونه بين الأحمر والبنفسجي، وتُنتج ذرات السيزيوم لهبًا يتدرَّج بين الأزرق
+      والبنفسجي.</p><p>فلزات المجموعة الثانية تُعرَف باسم الفلزات القلوية الأرضية، ويمكنها أيضًا إنتاج ألوان لهب
+      مثيرة للاهتمام عند تسخينها باستخدام لهب بنسن. توضِّح الصورة الآتية ألوان لهب الكالسيوم
+      والسترونشيوم والباريوم.</p><figure><div class="h-scroll"><img class="displayed-image" src="./شارح الدرس_ اختبار اللهب _ نجوى_files/5.svg"></div></figure><p>تُنتج ذرات الكالسيوم لهبًا يُوصَف عادةً بأنه أحمر طوبي، وتنتج ذرات السترونشيوم لهبًا أحمر
+      ساطعًا. وتُنتج ذرات الباريوم لهبًا لونه أخضر مصفر فاتح.</p><p>عادةً ما تُستخدم أملاح كلوريد العناصر الفلزية لإنتاج ألوان اللهب لأنها متطايرة، ولا تُنتج
+      أيونات الكلوريد أي لون لهب خاص بها من شأنه أن يتداخل مع اختبار اللهب. فمن السهل اختبار وجود
+      فلزَّي الكالسيوم أو الباريوم إذا كنا نستخدم كلوريد الكالسيوم أو الباريوم (<svg style="vertical-align:-5.0373599003736pt" width="35pt" height="16pt" viewBox="-1 -1 35 16" direction="ltr" xmlns="http://www.w3.org/2000/svg"><g font-family="STIX2" font-size="13.5"><text y="9.963">C</text><text y="9.963" x="9.011">a</text><text y="9.963" x="15.467">C</text><text y="9.963" x="24.478"></text></g></svg></p></article></div></main></div></div></div></div>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","999237443781220");fbq("set","agent","tmgoogletagmanager","999237443781220");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=999237443781220&amp;ev=PageView&amp;noscript=1"></noscript>
+</body></html>
